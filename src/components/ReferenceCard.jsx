@@ -1,0 +1,53 @@
+const ReferenceCard = ({
+  arabic,
+  bangla,
+  source,
+  sourceUrl,
+  explanation,
+  links = [],
+  badge,
+  children,
+}) => (
+  <article className="mb-5 rounded-2xl border border-[#d8c8a3] bg-[#fffdf9] p-5 shadow-[0_10px_30px_rgba(15,23,42,0.08)] md:p-6">
+    {arabic && (
+      <div className="mb-3 text-right text-[1.35rem] leading-[2] text-[#8a6f40]">
+        {arabic}
+      </div>
+    )}
+    <div className="mb-2 text-[1rem] leading-8 text-[#35424f]">{bangla}</div>
+    {explanation && (
+      <div className="my-3 rounded-xl border-l-4 border-[#8a6f40] bg-[#f8efe1] p-3 text-[0.95rem] leading-7 text-[#635440]">
+        {explanation}
+      </div>
+    )}
+    <div className="mt-4 flex flex-wrap items-center gap-2">
+      {badge && (
+        <span className="rounded-full border border-[#2f7a67] bg-[#eaf7f3] px-2.5 py-1 text-[0.8rem] font-semibold text-[#2f7a67]">
+          {badge}
+        </span>
+      )}
+      <a
+        href={sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-full border border-[#8a6f40] px-2.5 py-1 text-[0.85rem] text-[#8a6f40] transition hover:border-[#a67c2f] hover:bg-[#f8efe1] hover:text-[#7a5728]"
+      >
+        🔗 {source}
+      </a>
+      {links.map((link) => (
+        <a
+          key={link.label}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`rounded-full border px-2.5 py-1 text-[0.85rem] transition ${link.variant === "teal" ? "border-[#2f7a67] text-[#2f7a67] hover:border-[#2a6a56] hover:bg-[#eaf7f3] hover:text-[#2a6a56]" : "border-[#5b7ea8] text-[#5b7ea8] hover:border-[#476e9b] hover:bg-[#eef4fb] hover:text-[#476e9b]"}`}
+        >
+          {link.label}
+        </a>
+      ))}
+      {children}
+    </div>
+  </article>
+);
+
+export default ReferenceCard;
