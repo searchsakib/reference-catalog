@@ -27,7 +27,7 @@ const Sidebar = ({ toc, expanded, toggleSection, scrollTo }) => {
       <div
         className={`${isOpen ? "block" : "hidden"} lg:block lg:flex-1 lg:min-h-0`}
       >
-        <nav className="min-h-0 overflow-y-auto px-3 py-3 lg:max-h-[calc(100vh-88px)]">
+        <nav className="min-h-0 overflow-y-auto py-3 [scrollbar-thin] [scrollbar-color:rgba(166,124,47,0.55)_transparent] lg:max-h-[calc(100vh-88px)]">
           {toc.map((section) => (
             <div
               key={section.id}
