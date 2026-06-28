@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 import Hero from "./components/Hero";
 import ContentSection from "./components/ContentSection";
@@ -8,7 +8,6 @@ import { contentSections, toc } from "./data/references";
 export default function App() {
   const [expanded, setExpanded] = useState({ quran: true, hadith: true });
   const [downloading, setDownloading] = useState(null);
-  const contentRef = useRef(null);
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
@@ -21,71 +20,53 @@ export default function App() {
     setExpanded((prev) => ({ ...prev, [id]: !prev[id] }));
   };
 
+  const downloadStaticFile = (filename) => {
+    const link = document.createElement("a");
+    link.href = `/downloads/${filename}`;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const downloadPDF = async () => {
     setDownloading("pdf");
-    const { jsPDF } =
-      await import("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js");
-    const html2canvas = (
-      await import("https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js")
-    ).default;
 
-    const canvas = await html2canvas(contentRef.current, {
-      scale: 1.5,
-      useCORS: true,
-      backgroundColor: "#0f1923",
-    });
+    const staticFile = "/downloads/ঘুম-ইসলামিক-রেফারেন্স.pdf";
 
-    const imgData = canvas.toDataURL("image/jpeg", 0.85);
-    const pdf = new jsPDF({
-      orientation: "portrait",
-      unit: "mm",
-      format: "a4",
-    });
-    const pageW = pdf.internal.pageSize.getWidth();
-    const pageH = pdf.internal.pageSize.getHeight();
-    const ratio = canvas.width / canvas.height;
-    const imgH = pageW / ratio;
-
-    let position = 0;
-    let remaining = imgH;
-
-    while (remaining > 0) {
-      pdf.addImage(imgData, "JPEG", 0, -position, pageW, imgH);
-      remaining -= pageH;
-      position += pageH;
-      if (remaining > 0) pdf.addPage();
+    try {
+      const response = await fetch(staticFile, { method: "HEAD" });
+      if (response.ok) {
+        downloadStaticFile("ঘুম-ইসলামিক-রেফারেন্স.pdf");
+        setDownloading(null);
+        return;
+      }
+    } catch {
+      // No-op: the buttons are intended to download the uploaded files.
     }
 
-    pdf.save("ঘুম-ইসলামিক-রেফারেন্স.pdf");
     setDownloading(null);
+    window.alert("PDF ফাইলটি এখনও আপলোড করা হয়নি।");
   };
 
   const downloadDOCX = async () => {
     setDownloading("docx");
-    const content = contentRef.current.innerHTML;
-    const html = `
-      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word'>
-      <head><meta charset='utf-8'>
-      <style>
-        body { font-family: 'SutonnyMJ', Arial, sans-serif; direction: ltr; }
-        .arabic-text { font-size: 20pt; text-align: right; direction: rtl; font-family: 'Traditional Arabic', serif; color: #c8a96e; }
-        .bangla-text { font-size: 12pt; color: #333; margin: 8pt 0; }
-        .explanation { font-size: 11pt; color: #555; font-style: italic; }
-        h1 { color: #1a3a5c; font-size: 24pt; }
-        h2 { color: #1a4a7c; font-size: 16pt; border-bottom: 1pt solid #c8a96e; }
-        h3 { color: #2a5a8c; font-size: 13pt; }
-        .ayah-card, .hadith-card { border: 1pt solid #c8a96e; padding: 10pt; margin: 10pt 0; }
-        .source-link { color: #1a6a3a; font-size: 10pt; }
-      </style></head><body>${content}</body></html>`;
 
-    const blob = new Blob(["\ufeff", html], { type: "application/msword" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "ঘুম-ইসলামিক-রেফারেন্স.doc";
-    link.click();
-    URL.revokeObjectURL(url);
+    const staticFile = "/downloads/ঘুম-ইসলামিক-রেফারেন্স.docx";
+
+    try {
+      const response = await fetch(staticFile, { method: "HEAD" });
+      if (response.ok) {
+        downloadStaticFile("ঘুম-ইসলামিক-রেফারেন্স.docx");
+        setDownloading(null);
+        return;
+      }
+    } catch {
+      // No-op: the buttons are intended to download the uploaded files.
+    }
+
     setDownloading(null);
+    window.alert("DOCX ফাইলটি এখনও আপলোড করা হয়নি।");
   };
 
   return (
@@ -98,7 +79,7 @@ export default function App() {
           scrollTo={scrollTo}
         />
 
-        <main className="flex-1">
+        <main className="flex-1 lg:ml-[320px]">
           <Hero
             downloading={downloading}
             onDownloadPDF={downloadPDF}
@@ -113,7 +94,7 @@ export default function App() {
                 করে। প্রতিটি আইটেমের সাথে উৎস ও ব্যাখ্যা দেওয়া হয়েছে।
               </div>
 
-              <div ref={contentRef} className="space-y-6">
+              <div className="space-y-6">
                 {contentSections.map((section) => (
                   <ContentSection key={section.id} section={section} />
                 ))}
