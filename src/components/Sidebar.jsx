@@ -4,7 +4,7 @@ const Sidebar = ({ toc, expanded, toggleSection, scrollTo }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <aside className="w-full border-b border-[#d8c8a3] bg-[#fffaf1] lg:fixed lg:left-0 lg:top-0 lg:z-20 lg:flex lg:h-screen lg:w-[320px] lg:min-w-[320px] lg:flex-col lg:border-b-0 lg:border-r lg:border-[#d8c8a3]">
+    <aside className="w-full border-b border-[#d8c8a3] bg-[#fffaf1] lg:fixed lg:left-0 lg:top-0 lg:z-20 lg:flex lg:h-screen lg:w-[320px] lg:min-w-[320px] lg:flex-col lg:overflow-hidden lg:border-b-0 lg:border-r lg:border-[#d8c8a3]">
       <div className="flex items-center justify-between border-b border-[#d8c8a3] bg-[#fffaf1]/95 px-5 py-5 backdrop-blur">
         <div>
           <div className="text-[1.45rem] font-bold tracking-[0.03em] text-[#a67c2f]">
@@ -24,8 +24,10 @@ const Sidebar = ({ toc, expanded, toggleSection, scrollTo }) => {
         </button>
       </div>
 
-      <div className={`${isOpen ? "block" : "hidden"} lg:block`}>
-        <nav className="flex-1 overflow-y-auto px-3 py-3 lg:max-h-none">
+      <div
+        className={`${isOpen ? "block" : "hidden"} lg:block lg:flex-1 lg:min-h-0`}
+      >
+        <nav className="min-h-0 overflow-y-auto px-3 py-3 lg:max-h-[calc(100vh-88px)]">
           {toc.map((section) => (
             <div
               key={section.id}
