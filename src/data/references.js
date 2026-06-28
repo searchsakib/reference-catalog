@@ -163,13 +163,13 @@ export const contentSections = [
             bangla:
               "হে বস্ত্রাবৃত! রাতে দাঁড়াও, কিছু অংশ বাদে। অর্ধরাত অথবা তার চেয়ে কিছু কম করো, অথবা তার চেয়ে বাড়াও এবং কুরআন আবৃত্তি করো ধীরে ধীরে স্পষ্টভাবে।",
             source: "সূরা মুযযাম্মিল ৭৩:১-৪",
-            sourceUrl: "https://quran.com/73/1",
+            sourceUrl: "https://quran.com/73/1-4",
             explanation:
               "এই আয়াতগুলো রাসূলুল্লাহ ﷺ-কে তাহাজ্জুদ নামাজের নির্দেশ দেয়। রাতের ইবাদত আত্মিক শুদ্ধির জন্য অত্যন্ত কার্যকর।",
             links: [
               {
                 label: "📖 Quran.com-এ দেখুন",
-                href: "https://quran.com/73/1",
+                href: "https://quran.com/73/1-4",
                 variant: "teal",
               },
             ],
@@ -197,13 +197,13 @@ export const contentSections = [
             bangla:
               "তারা রাতের অল্পাংশই ঘুমাতো এবং ভোরবেলা তারা ক্ষমা প্রার্থনা করত।",
             source: "সূরা যারিয়াত ৫১:১৭-১৮",
-            sourceUrl: "https://quran.com/51/17",
+            sourceUrl: "https://quran.com/51/17-18",
             explanation:
               "জান্নাতবাসীদের পার্থিব জীবনের বর্ণনা। রাত জেগে ইবাদত করা এবং শেষ রাতে ইস্তিগফার করা তাদের বৈশিষ্ট্য ছিল।",
             links: [
               {
                 label: "📖 Quran.com-এ দেখুন",
-                href: "https://quran.com/51/17",
+                href: "https://quran.com/51/17-18",
                 variant: "teal",
               },
             ],
@@ -220,13 +220,13 @@ export const contentSections = [
             bangla:
               "সেখানে তারা কোনো বাজে কথা ও পাপের কথা শুনবে না, শুধু শুনবে ‘সালাম’ এবং ‘সালাম’।",
             source: "সূরা ওয়াকিয়া ৫৬:২৫-২৬",
-            sourceUrl: "https://quran.com/56/25",
+            sourceUrl: "https://quran.com/56/25-26",
             explanation:
               "জান্নাতে পরিপূর্ণ শান্তি ও বিশ্রামের পরিবেশ থাকবে — কোনো অশান্তি, উদ্বেগ বা ক্লান্তি নেই।",
             links: [
               {
                 label: "📖 Quran.com-এ দেখুন",
-                href: "https://quran.com/56/25",
+                href: "https://quran.com/56/25-26",
                 variant: "teal",
               },
             ],
@@ -249,7 +249,7 @@ export const contentSections = [
             bangla:
               "যখন তুমি বিছানায় যাবে তখন সালাতের ওজুর মতো ওজু করে নেবে। তারপর ডান পাশে শুয়ে বলবে: ‘হে আল্লাহ! আমার জীবন আপনার নিকট সমর্পণ করলাম...’",
             source: "সহিহ বুখারি: ২৪৭, সহিহ মুসলিম: ২৭১০",
-            sourceUrl: "https://sunnah.com/bukhari:247",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/247",
             explanation:
               "ঘুমানোর আগে ওজু করা এবং ডান কাতে শোয়া সুন্নাহ। এটি শরীর ও মনের পবিত্রতার সাথে ঘুমের শুরু।",
             links: [
@@ -265,7 +265,7 @@ export const contentSections = [
             bangla:
               "নবী ﷺ রাতে নিজ বিছানায় শোয়ার সময় নিজ হাত গালের নিচে রাখতেন, তারপর বলতেন: ‘হে আল্লাহ! আপনার নামেই মরি, আপনার নামেই জীবিত হই।’",
             source: "সহিহ বুখারি: ৬৩১৪",
-            sourceUrl: "https://sunnah.com/bukhari:6314",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6314",
             explanation:
               "ঘুমানোর সময় ডান হাত গালের নিচে রাখা নবী ﷺ-এর সুন্নাহ।",
             links: [
@@ -281,7 +281,7 @@ export const contentSections = [
             bangla:
               "তোমাদের কেউ যখন ঘুমাতে চায়, সে যেন তার লুঙ্গির ভেতরের অংশ দিয়ে বিছানা ঝেড়ে নেয়।",
             source: "সহিহ বুখারি: ৬৩২০, সহিহ মুসলিম: ২৭১৪",
-            sourceUrl: "https://sunnah.com/bukhari:6320",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6320",
             explanation:
               "ঘুমানোর আগে বিছানা ঝাড়া স্বাস্থ্যবিধি এবং সুন্নাহ উভয়ের দৃষ্টিকোণ থেকে গুরুত্বপূর্ণ।",
             links: [
@@ -297,12 +297,12 @@ export const contentSections = [
             bangla:
               "রাসূলুল্লাহ ﷺ এক ব্যক্তিকে উপুড় হয়ে শুয়ে থাকতে দেখলেন এবং বললেন: এটা এমন শোয়া যা আল্লাহ পছন্দ করেন না।",
             source: "তিরমিযি: ২৭৬৮",
-            sourceUrl: "https://sunnah.com/tirmidhi:2768",
+            sourceUrl: "https://ihadis.com/tirmidhi/hadith/2768",
             explanation: "উপুড় হয়ে শোয়া নিষেধ।",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/tirmizi/hadith/2768",
+                href: "https://ihadis.com/tirmidhi/hadith/2768",
                 variant: "blue",
               },
             ],
@@ -318,7 +318,7 @@ export const contentSections = [
             arabic: "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
             bangla: "হে আল্লাহ! তোমার নামে মরি ও বাঁচি।",
             source: "সহিহ বুখারি: ৬৩১২",
-            sourceUrl: "https://sunnah.com/bukhari:6312",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6312",
             explanation:
               "ঘুমানোর আগের এই সংক্ষিপ্ত দু'আ ঘুমকে মৃত্যু এবং জাগরণকে পুনরুজ্জীবনের সাথে যুক্ত করে।",
             links: [
@@ -334,7 +334,7 @@ export const contentSections = [
             bangla:
               "যে ব্যক্তি ঘুমানোর সময় আয়াতুল কুরসি পাঠ করবে, আল্লাহর পক্ষ থেকে তার উপর একজন রক্ষক থাকবে।",
             source: "সহিহ বুখারি: ২৩১১",
-            sourceUrl: "https://sunnah.com/bukhari:2311",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/2311",
             explanation:
               "আয়াতুল কুরসি (সূরা বাকারা ২:২৫৫) পাঠ করা ঘুমের আগের সবচেয়ে গুরুত্বপূর্ণ আমলগুলোর একটি।",
             links: [
@@ -350,7 +350,7 @@ export const contentSections = [
             bangla:
               "যে ব্যক্তি রাতে সূরা বাকারার শেষ দুই আয়াত পাঠ করবে, তার জন্য সেটা যথেষ্ট হবে।",
             source: "সহিহ বুখারি: ৫০১০, সহিহ মুসলিম: ৮০৭",
-            sourceUrl: "https://sunnah.com/bukhari:5010",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/5010",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
@@ -364,7 +364,7 @@ export const contentSections = [
             bangla:
               "আমি কি তোমাকে এমন কিছু বলব না যা একজন খাদেমের চেয়ে তোমার জন্য ভালো?",
             source: "সহিহ বুখারি: ৩৭০৫, সহিহ মুসলিম: ২৭২৭",
-            sourceUrl: "https://sunnah.com/bukhari:3705",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/3705",
             explanation: "এটি ফাতিমা (রা.)-কে নবী ﷺ-এর শেখানো তাসবিহ।",
             links: [
               {
@@ -379,7 +379,7 @@ export const contentSections = [
             bangla:
               "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম প্রতি রাতে বিছানায় গেলে উভয় হাত একত্র করতেন।",
             source: "সহিহ বুখারি: ৫০১৭",
-            sourceUrl: "https://sunnah.com/bukhari:5017",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/5017",
             explanation:
               "তিন কুল (সূরা ইখলাস, ফালাক, নাস) পাঠ এবং শরীরে মাসহ করা ঘুমের আগের গুরুত্বপূর্ণ সুন্নাহ।",
             links: [
@@ -395,7 +395,7 @@ export const contentSections = [
             bangla:
               "ঘুমানোর সময় সূরা কাফিরূন পড়ো, কারণ এটা শিরক থেকে মুক্তির ঘোষণা।",
             source: "আবুদাউদ: ৫০৫৫",
-            sourceUrl: "https://sunnah.com/abudawud:5055",
+            sourceUrl: "https://ihadis.com/abu-dawud/hadith/5055",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
@@ -415,12 +415,12 @@ export const contentSections = [
             bangla:
               "ফরজ নামাজের পরে সর্বোত্তম নামাজ হলো রাতের মধ্যভাগের নামাজ।",
             source: "সহিহ মুসলিম: ১১৬৩",
-            sourceUrl: "https://sunnah.com/muslim:1163",
+            sourceUrl: "https://ihadis.com/muslim/hadith/1163",
             explanation: "তাহাজ্জুদ নামাজ সুন্নতে মুয়াক্কাদা।",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/muslim/hadith/2775",
+                href: "https://ihadis.com/muslim/hadith/1163",
                 variant: "blue",
               },
             ],
@@ -430,7 +430,7 @@ export const contentSections = [
             bangla:
               "প্রতি রাতে যখন শেষ তৃতীয়াংশ বাকি থাকে তখন আমাদের রব তাবারাকা ওয়া তাআলা নিকটবর্তী আসমানে নামেন।",
             source: "সহিহ বুখারি: ১১৪৫, সহিহ মুসলিম: ৭৫৮",
-            sourceUrl: "https://sunnah.com/bukhari:1145",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/1145",
             explanation: "রাতের শেষ তৃতীয়াংশ দু'আ কবুলের বিশেষ সময়।",
             links: [
               {
@@ -445,7 +445,7 @@ export const contentSections = [
             bangla:
               "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম রাতের প্রথম অংশে ঘুমাতেন এবং শেষ অংশে জাগতেন।",
             source: "সহিহ বুখারি: ১১৪৬, সহিহ মুসলিম: ৭৩৮",
-            sourceUrl: "https://sunnah.com/bukhari:1146",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/1146",
             explanation: "নবী ﷺ-এর ঘুমের সময়সূচি অনুসরণ করা উচিত।",
             links: [
               {
@@ -471,33 +471,33 @@ export const contentSections = [
           },
           {
             bangla: "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম দুপুরে বিশ্রাম নিতেন।",
-            source: "সহিহ বুখারি: ৫৮৫",
-            sourceUrl: "https://sunnah.com/bukhari:585",
+            source: "সহিহ মুসলিম: ৫৯৫১",
+            sourceUrl: "https://ihadis.com/muslim/hadith/5951",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/bukhari/hadith/585",
+                href: "https://ihadis.com/muslim/hadith/5951",
                 variant: "blue",
               },
             ],
             badge: "সহিহ",
           },
-          {
-            bangla:
-              "দিনের রোজার জন্য সাহরির খাবারের সাহায্য নাও এবং রাতের ইবাদতের জন্য দুপুরের ঘুমের সাহায্য নাও।",
-            source: "ইবনে মাজাহ: ১৬৯৩",
-            sourceUrl: "https://sunnah.com/ibnmajah:1693",
-            explanation:
-              "দুপুরের সংক্ষিপ্ত ঘুম (২০-৩০ মিনিট) তাহাজ্জুদের জন্য রাতে জাগা সহজ করে।",
-            links: [
-              {
-                label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/ibn-majah/hadith/1693",
-                variant: "blue",
-              },
-            ],
-            badge: "হাসান",
-          },
+          // {
+          //   bangla:
+          //     "দিনের রোজার জন্য সাহরির খাবারের সাহায্য নাও এবং রাতের ইবাদতের জন্য দুপুরের ঘুমের সাহায্য নাও।",
+          //   source: "ইবনে মাজাহ: ১৬৯৩",
+          //   sourceUrl: "https://ihadis.com/ibn-majah/hadith/1693",
+          //   explanation:
+          //     "দুপুরের সংক্ষিপ্ত ঘুম (২০-৩০ মিনিট) তাহাজ্জুদের জন্য রাতে জাগা সহজ করে।",
+          //   links: [
+          //     {
+          //       label: "📚 iHadith-এ দেখুন",
+          //       href: "https://ihadis.com/ibn-majah/hadith/1693",
+          //       variant: "blue",
+          //     },
+          //   ],
+          //   badge: "হাসান",
+          // },
         ],
       },
       {
@@ -508,7 +508,7 @@ export const contentSections = [
             bangla:
               "স্বপ্ন তিন প্রকার: সত্য স্বপ্ন যা আল্লাহর পক্ষ থেকে সুসংবাদ; শয়তানের পক্ষ থেকে দুঃখজনক স্বপ্ন; এবং মানুষ দিনে মনে মনে যা ভাবে তার প্রতিফলন।",
             source: "সহিহ মুসলিম: ২২৬৩",
-            sourceUrl: "https://sunnah.com/muslim:2263",
+            sourceUrl: "https://ihadis.com/muslim/hadith/5641",
             explanation: "ইসলামে স্বপ্নের তিনটি শ্রেণীবিভাগ রয়েছে।",
             links: [
               {
@@ -522,7 +522,7 @@ export const contentSections = [
           {
             bangla: "সৎ স্বপ্ন নবুওয়াতের ছেচল্লিশ ভাগের এক ভাগ।",
             source: "সহিহ বুখারি: ৬৯৮৭, সহিহ মুসলিম: ২২৬৩",
-            sourceUrl: "https://sunnah.com/bukhari:6987",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6987",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
@@ -536,7 +536,7 @@ export const contentSections = [
             bangla:
               "যে ব্যক্তি ঘুমে আমাকে দেখেছে সে সত্যিই আমাকে দেখেছে, কারণ শয়তান আমার রূপ ধারণ করতে পারে না।",
             source: "সহিহ বুখারি: ৬৯৯৩, সহিহ মুসলিম: ২২৬৬",
-            sourceUrl: "https://sunnah.com/bukhari:6993",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6993",
             explanation:
               "নবী ﷺ-কে স্বপ্নে দেখা সত্যিকারের দর্শন — এটি একটি বিশেষ মর্যাদার বিষয়।",
             links: [
@@ -551,14 +551,14 @@ export const contentSections = [
           {
             bangla:
               "তোমাদের কেউ যদি অপছন্দের স্বপ্ন দেখে তাহলে বাম দিকে তিনবার ফুঁ দিক, শয়তান ও তার অনিষ্ট থেকে আল্লাহর কাছে আশ্রয় চাক।",
-            source: "সহিহ বুখারি: ৬৯৮৫, সহিহ মুসলিম: ২২৬১",
-            sourceUrl: "https://sunnah.com/bukhari:6985",
+            source: "সহিহ বুখারি: ৬৯৮৬, সহিহ মুসলিম: ২২৬১",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6986",
             explanation:
               "দুঃস্বপ্ন দেখলে বাম দিকে তিনবার থুথু দেওয়া, আউযুবিল্লাহ পড়া এবং পার্শ্ব পরিবর্তন করা সুন্নাহ।",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/bukhari/hadith/6985",
+                href: "https://ihadis.com/bukhari/hadith/6986",
                 variant: "blue",
               },
             ],
@@ -574,7 +574,7 @@ export const contentSections = [
             bangla:
               "তোমাদের কেউ যখন ঘুমায় তখন শয়তান তার মাথার পেছনে তিনটি গিরা দেয়।",
             source: "সহিহ বুখারি: ১১৪২, সহিহ মুসলিম: ৭৭৬",
-            sourceUrl: "https://sunnah.com/bukhari:1142",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/1142",
             explanation:
               "এই হাদিস থেকে বোঝা যায় ফজরের সময় সহজে উঠতে পারলে আল্লাহর যিকর, ওজু ও নামাজ কতটা গুরুত্বপূর্ণ।",
             links: [
@@ -588,9 +588,9 @@ export const contentSections = [
           },
           {
             bangla:
-              "দরজা বন্ধ করো এবং আল্লাহর নাম নাও। কারণ শয়তান বন্ধ দরজা খুলতে পারে না।",
+              "নবী (ﷺ) বলেছেন, ‘সূর্যাস্তের পরপরই যখন রাত শুরু হয় অথবা বলেছেন, যখন রাতের অন্ধকার নেমে আসে তখন তোমরা তোমাদের শিশুদেরকে ঘরে আটকে রাখবে। কারণ এ সময় শয়তানেরা ছড়িয়ে পড়ে।",
             source: "সহিহ বুখারি: ৩২৮০, সহিহ মুসলিম: ২০১২",
-            sourceUrl: "https://sunnah.com/bukhari:3280",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/3280",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
@@ -610,12 +610,12 @@ export const contentSections = [
             arabic: "اللَّهُمَّ بَارِكْ لأُمَّتِي فِي بُكُورِهَا",
             bangla: "হে আল্লাহ! আমার উম্মতের ভোরবেলায় বরকত দাও।",
             source: "তিরমিযি: ১২১২, আবুদাউদ: ২৬০৬",
-            sourceUrl: "https://sunnah.com/tirmidhi:1212",
+            sourceUrl: "https://ihadis.com/tirmidhi/hadith/1212",
             explanation: "ফজরের পরে ঘুমানো বরকতের সময়কে নষ্ট করে।",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/tirmizi/hadith/1212",
+                href: "https://ihadis.com/tirmidhi/hadith/1212",
                 variant: "blue",
               },
             ],
@@ -625,7 +625,7 @@ export const contentSections = [
             arabic: "الصَّلاَةُ خَيْرٌ مِنَ النَّوْمِ",
             bangla: "নামাজ ঘুমের চেয়ে ভালো।",
             source: "আবুদাউদ: ৪৯৯ (ফজরের আযানে)",
-            sourceUrl: "https://sunnah.com/abudawud:499",
+            sourceUrl: "https://ihadis.com/abu-dawud/hadith/499",
             explanation:
               "‘আস-সালাতু খাইরুম মিনান নাউম’ — এই বাক্যটি ফজরের আযানে পাঠ করা হয়।",
             links: [
@@ -646,7 +646,7 @@ export const contentSections = [
           {
             bangla: "তাঁর দুই চোখ ঘুমাতো কিন্তু হৃদয় ঘুমাতো না।",
             source: "সহিহ বুখারি: ৩৫৬৯",
-            sourceUrl: "https://sunnah.com/bukhari:3569",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/3569",
             explanation:
               "নবী ﷺ-এর একটি বিশেষ বৈশিষ্ট্য ছিল যে ঘুমেও তাঁর হৃদয় সজাগ থাকতো।",
             links: [
@@ -662,7 +662,7 @@ export const contentSections = [
             bangla:
               "ঘুমানোর সময় প্রদীপ নিভিয়ে দাও, দরজা বন্ধ করো এবং মশকের মুখ আটকাও।",
             source: "সহিহ বুখারি: ৩৩১৬, সহিহ মুসলিম: ২০১২",
-            sourceUrl: "https://sunnah.com/bukhari:3316",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/3316",
             explanation:
               "এই নির্দেশনাগুলো আধুনিক বিজ্ঞানের সাথে সামঞ্জস্যপূর্ণ — অন্ধকারে ভালো ঘুম হয়।",
             links: [
@@ -695,7 +695,7 @@ export const contentSections = [
             bangla:
               "সমস্ত প্রশংসা আল্লাহর যিনি আমাদের মৃত্যুর পর জীবিত করলেন এবং তাঁর দিকেই পুনরুত্থান।",
             source: "সহিহ বুখারি: ৬৩১২",
-            sourceUrl: "https://sunnah.com/bukhari:6312",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6312",
             explanation: "ঘুম থেকে উঠলে এই দু'আ পড়া সুন্নাহ।",
             links: [
               {
@@ -708,12 +708,12 @@ export const contentSections = [
           },
           {
             bangla: "তোমাদের কেউ যখন ঘুমায় আল্লাহ তার রূহ ধারণ করেন।",
-            source: "সহিহ বুখারি: ৭৩৮৩",
-            sourceUrl: "https://sunnah.com/bukhari:7383",
+            source: "সহিহ বুখারি: ৬৩২০",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/6320",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/bukhari/hadith/7383",
+                href: "https://ihadis.com/bukhari/hadith/6320",
                 variant: "blue",
               },
             ],
@@ -728,14 +728,14 @@ export const contentSections = [
           {
             bangla:
               "জুমার রাতকে অন্য রাতের তুলনায় বিশেষভাবে ইবাদতের জন্য নির্ধারণ করো না এবং জুমার দিনকে অন্য দিনের তুলনায় বিশেষভাবে রোজার জন্য নির্ধারণ করো না।",
-            source: "সহিহ মুসলিম: ১১৪৪",
-            sourceUrl: "https://sunnah.com/muslim:1144",
+            source: "রিয়াদুস সলেহিন : ১/১৭৬৯",
+            sourceUrl: "https://ihadis.com/riyadus-salihin/hadith/1769",
             explanation:
               "জুমার রাতকে একা বিশেষ মর্যাদা না দেওয়া — ইবাদত সব রাতে সমভাবে করা উচিত।",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
-                href: "https://ihadis.com/muslim/hadith/2728",
+                href: "https://ihadis.com/riyadus-salihin/hadith/1769",
                 variant: "blue",
               },
             ],
@@ -745,7 +745,7 @@ export const contentSections = [
             bangla:
               "যে ব্যক্তি এমন ছাদে ঘুমায় যেখানে কোনো দেয়াল নেই, তার থেকে দায়িত্ব উঠে গেছে।",
             source: "আবুদাউদ: ৫০৪১",
-            sourceUrl: "https://sunnah.com/abudawud:5041",
+            sourceUrl: "https://ihadis.com/abu-dawud/hadith/5041",
             explanation: "নিরাপত্তাহীন জায়গায় ঘুমানো নিষেধ।",
             links: [
               {
@@ -759,7 +759,7 @@ export const contentSections = [
           {
             bangla: "রাসূলুল্লাহ ﷺ একা ঘরে ঘুমাতে নিষেধ করেছেন।",
             source: "আহমাদ: ২৩৮৮৮",
-            sourceUrl: "https://sunnah.com/",
+            sourceUrl: "https://ihadis.com/",
             explanation:
               "একাকী ঘুমানো মানসিক স্বাস্থ্য ও নিরাপত্তার দৃষ্টিকোণ থেকেও ইসলামে অপছন্দনীয়।",
             badge: "হাসান",
@@ -774,7 +774,7 @@ export const contentSections = [
             bangla:
               "যে ব্যক্তি নামাজ ভুলে গেছে বা ঘুমিয়ে পড়েছিল তার কাফফারা হলো স্মরণ হওয়া মাত্র তা পড়া।",
             source: "সহিহ বুখারি: ৫৯৭, সহিহ মুসলিম: ৬৮৪",
-            sourceUrl: "https://sunnah.com/bukhari:597",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/597",
             explanation:
               "ঘুমের কারণে নামাজ ছুটে গেলে গুনাহ হয় না; স্মরণ হওয়া মাত্রই কাযা পড়তে হবে।",
             links: [
@@ -788,11 +788,11 @@ export const contentSections = [
           },
           {
             bangla:
-              "তোমাদের কেউ ঘুম থেকে উঠলে সে যেন পাত্রে হাত না ডোবায় তিনবার না ধোয়া পর্যন্ত।",
-            source: "সহিহ বুখারি: ১৬২, সহিহ মুসলিম: ২৭৮",
-            sourceUrl: "https://sunnah.com/bukhari:162",
+              "তোমাদের কেউ ঘুম থেকে উঠলে সে যেন পাত্রে হাত না ডোবায় হাত না ধোয়া পর্যন্ত।",
+            source: "সহিহ বুখারি: ১৬২",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/162",
             explanation:
-              "ঘুম থেকে উঠে হাত তিনবার ধোয়া ইসলামিক পরিষ্কার-পরিচ্ছন্নতার অংশ।",
+              "ঘুম থেকে উঠে হাত ধোয়া ইসলামিক পরিষ্কার-পরিচ্ছন্নতার অংশ।",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
@@ -806,7 +806,7 @@ export const contentSections = [
             bangla:
               "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম রাতে জাগলে মিসওয়াক দিয়ে মুখ পরিষ্কার করতেন।",
             source: "সহিহ বুখারি: ২৪৫, সহিহ মুসলিম: ২৫৫",
-            sourceUrl: "https://sunnah.com/bukhari:245",
+            sourceUrl: "https://ihadis.com/bukhari/hadith/245",
             links: [
               {
                 label: "📚 iHadith-এ দেখুন",
@@ -820,7 +820,7 @@ export const contentSections = [
             bangla:
               "তোমাদের সন্তানদের সাত বছর বয়সে নামাজের আদেশ দাও, দশ বছরে না পড়লে মারো এবং তাদের বিছানায় আলাদা করে দাও।",
             source: "আবুদাউদ: ৪৯৫",
-            sourceUrl: "https://sunnah.com/abudawud:495",
+            sourceUrl: "https://ihadis.com/abu-dawud/hadith/495",
             explanation:
               "দশ বছর বয়সে ছেলে-মেয়েদের আলাদা বিছানায় ঘুমানোর ব্যবস্থা ইসলামের পর্দানীতির অংশ।",
             links: [
