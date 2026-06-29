@@ -12,6 +12,7 @@ const ContentSection = ({ section, expanded }) => (
           {subsection.items.map((item) => (
             <ReferenceCard
               key={`${subsection.id}-${item.source}`}
+              topic={item.topic}
               arabic={item.arabic}
               bangla={item.bangla}
               source={item.source}
