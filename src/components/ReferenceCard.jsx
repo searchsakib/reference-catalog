@@ -1,4 +1,5 @@
 const ReferenceCard = ({
+  topic,
   arabic,
   bangla,
   source,
@@ -20,6 +21,11 @@ const ReferenceCard = ({
 
   return (
     <article className="mb-5 rounded-2xl border border-[#d8c8a3] bg-[#fffdf9] p-5 shadow-[0_10px_30px_rgba(15,23,42,0.08)] md:p-7">
+      {topic && (
+        <h3 className="mb-2 text-2xl font-semibold leading-6 text-[#35424f] sm:text-[1.25rem]">
+          {topic}
+        </h3>
+      )}
       {arabic && (
         <div className="mb-3 text-right text-[1.7rem] leading-[2.1] text-[#8a6f40] sm:text-[1.95rem] md:text-[2.15rem]">
           {arabic}
