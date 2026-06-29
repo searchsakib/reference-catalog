@@ -26,3 +26,9 @@ body {
 #root {
   min-height: 100vh;
 }
+
+/* for line break in bangla */
+.hadith-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+}

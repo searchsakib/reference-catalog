@@ -31,7 +31,7 @@ const ReferenceCard = ({
           {arabic}
         </div>
       )}
-      <div className="mb-2 text-[1.08rem] leading-[2] text-[#35424f] sm:text-[1.18rem]">
+      <div className="mb-2 text-[1.08rem] leading-[2] text-[#35424f] sm:text-[1.18rem] hadith-text">
         {bangla}
       </div>
       {explanation && (
